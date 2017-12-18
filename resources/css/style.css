@@ -191,7 +191,7 @@ nav {
 
 /* Thesis */
 
-.section heading-row{
+.section heading-row .col-right{
   display: flex;
   flex-direction: column;
 }
@@ -220,6 +220,16 @@ footer {
 
 .terms p {
   padding-right: 10px;
+}
+
+.terms-desktop ul{
+  display:flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.terms-desktop ul li a{
+  padding-right: 1rem;
 }
 
 /* Media Queries */
