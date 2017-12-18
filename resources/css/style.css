@@ -59,7 +59,7 @@ nav {
   height: 64px;
 }
 
-/*Body*/
+/*Top Section*/
 
 .top-section{
   display: flex;
@@ -136,6 +136,10 @@ nav {
   font-size: 32px;
 }
 
+.col-right .description h3{
+  font-size: 18px;
+}
+
 /* Courses*/
 #courses-mobile {
   display: none;
@@ -191,15 +195,15 @@ nav {
 
 /* Thesis */
 
-.section heading-row .col-right{
-  display: flex;
-  flex-direction: column;
-}
-
 video {
   max-width: 60%;
   height: auto;
   padding-bottom: 1.5rem;
+}
+
+.two-columns{
+  display: flex;
+  background-color: lightgrey;
 }
 
 /* Footer */
